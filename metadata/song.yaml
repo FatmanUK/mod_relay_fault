@@ -1,0 +1,86 @@
+---
+title: 'Relay Fault'
+speed: 6
+bpm: 132
+orderList:
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x09
+  - 0x0A
+  - 0x0B
+instruments:
+  - id: 0x01
+    source: 'st01'
+    name: 'ST-01/BassDrum2'
+    volume: 0x38
+    finetune: 0x0
+  - id: 0x02
+    source: 'st01'
+    name: 'ST-01/PopSnare1'
+    volume: 0x2C
+    finetune: 0x0
+  - id: 0x03
+    source: 'st01'
+    name: 'ST-01/CloseHiHat'
+    volume: 0x40
+    finetune: 0x0
+  - id: 0x04
+    source: 'st01'
+    name: 'ST-01/PopBass'
+    volume: 0x30
+    finetune: 0x0
+  - id: 0x05
+    source: 'st01'
+    name: 'ST-01/Leader'
+    volume: 0x24
+    finetune: 0x0
+  - id: 0x06
+    source: 'st01'
+    name: 'ST-01/KorgFilter'
+    volume: 0x20
+    finetune: 0x0
+  - id: 0x07
+    source: 'st01'
+    name: 'ST-01/SynClaves'
+    volume: 0x20
+    finetune: 0x0
+  - id: 0x08
+    source: 'st02'
+    name: 'ST-02/Cymbal2'
+    volume: 0x20
+    finetune: 0x0
+  - id: 0x09
+    source: 'st02'
+    name: 'ST-02/SynBuz'
+    volume: 0x26
+    finetune: 0x0
+...
+# vim: set filetype=yaml
